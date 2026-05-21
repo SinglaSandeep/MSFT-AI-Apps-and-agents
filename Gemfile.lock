@@ -53,7 +53,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
+    liquid (4.0.4)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -83,6 +83,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.4.1)
   just-the-docs (= 0.10.1)
+  liquid (>= 4.0.4, < 5.0)
 
 BUNDLED WITH
    2.3.9
