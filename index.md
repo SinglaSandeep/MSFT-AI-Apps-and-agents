@@ -43,7 +43,7 @@ The current hands-on lab guide focuses on the Zava retail assistant scenario and
 * Red teaming AI agents
 * Resource cleanup
 
-For the broader Day 2 agenda, see [Expanded workshop sections](docs/00_expanded_workshop_sections.md). That page maps the agenda topics to Microsoft documentation, sample repositories, and optional lab extensions for MCP, Copilot Studio, Microsoft Agent Framework, hosted agents, A2A/MCP interoperability, AI Gateway, guardrails, and enterprise Azure AI services.
+For the broader Day 2 agenda (lecture topics, optional labs, and references for MCP, Copilot Studio, Microsoft Agent Framework, hosted agents, A2A/MCP interop, AI Gateway, guardrails, and enterprise Azure AI services), see [Day 2 expanded agenda](docs/00_expanded_workshop_sections.md).
 
 ## Microsoft Documentation References
 
