@@ -1,10 +1,14 @@
-# Project
+# Microsoft AI Agentic Workshop
 
-This lab teaches you how to design and build AI applications and agents using Microsoft Foundry. You will learn how to create AI-powered applications that can interact with users, process natural language, and perform tasks based on user guidance. You will also learn how to monitor, troubleshoot, and perform red teaming activities against agents.
+This workshop teaches you how to design, build, govern, and operate AI applications and agents using Microsoft Foundry, Microsoft Agent Framework, Microsoft 365 Copilot, Copilot Studio, MCP, and A2A. It covers low-code and pro-code agent development, Foundry Agent Service, Microsoft Agent Framework orchestration, tools, memory, observability, evaluations, guardrails, AI Gateway patterns, and interoperability.
 
 ## Step by Step Instructions
 
 The step by step instructions for this lab can be found in the [AI Apps and agents guide](https://microsoft.github.io/TechWorkshop-L300-AI-Apps-and-agents).
+
+## Microsoft Documentation References
+
+The workshop content should stay aligned with the latest Microsoft documentation for [Microsoft Foundry Agent Service](https://learn.microsoft.com/azure/ai-foundry/agents/overview) and [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/agent-framework-overview).
 
 ## Contributing
 
