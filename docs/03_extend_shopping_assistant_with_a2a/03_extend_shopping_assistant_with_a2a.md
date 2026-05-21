@@ -13,7 +13,7 @@ In the previous exercise, you implemented a multimodal AI shopping assistant for
 
 In this exercise, we will use the Agent2Agent (A2A) Protocol to enable communication between multiple AI agents. This will allow us to create a more sophisticated shopping assistant that can leverage the strengths of different AI models and services.
 
-This exercise also acts as the interoperability bridge for the expanded workshop agenda. A2A provides agent discovery through agent cards and message-based communication, while MCP provides a standard way to expose tools. Together, they let agent logic built with Microsoft Agent Framework, Foundry, LangGraph, CrewAI, or other runtimes participate in a broader agent ecosystem.
+This exercise also acts as the interoperability bridge for the broader workshop agenda. A2A provides agent discovery through agent cards and message-based communication, while MCP provides a standard way to expose tools. Together, they let agent logic built with Microsoft Agent Framework, Foundry, LangGraph, CrewAI, or other runtimes participate in a broader agent ecosystem.
 
 ## Objectives
 

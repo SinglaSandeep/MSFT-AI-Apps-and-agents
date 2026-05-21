@@ -128,4 +128,4 @@ For running this lab you will need:
 * A desktop, laptop, virtual machine, or GitHub Codespace with permission to install software and run containers.
 * Local tooling: Azure CLI, Azure Developer CLI (`azd`), Git, GitHub CLI, Visual Studio Code, the Bicep extension, Docker Desktop or compatible container tooling, Python 3.10 through 3.13, and `uv`.
 * A GitHub account that can fork the repository and configure GitHub Actions repository secrets if you run the deployment workflow sections.
-* Optional for expanded agenda sections: access to Microsoft 365 Copilot/Copilot Studio, Azure API Management, Logic Apps connectors for MCP tools, and a non-production environment for red teaming and guardrail testing.
+* Optional for the broader agenda topics: access to Microsoft 365 Copilot/Copilot Studio, Azure API Management, Logic Apps connectors for MCP tools, and a non-production environment for red teaming and guardrail testing.
