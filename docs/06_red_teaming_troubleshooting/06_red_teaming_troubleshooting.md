@@ -13,6 +13,8 @@ As AI models become more sophisticated and are integrated into various applicati
 
 This exercise supports the workshop security agenda by connecting guardrails, Foundry red teaming, observability, tracing, and evaluations into one production-readiness workflow.
 
+For the expanded workshop, pair this exercise with a discussion of Foundry guardrails, Entra identity, Agent 365, production incident response, and non-production red-team environments. Red teaming should be used as part of a broader Govern, Map, Measure, and Manage loop rather than as a one-time pass/fail gate.
+
 ## Objectives
 
 After you complete this exercise, you will be able to:
@@ -20,6 +22,7 @@ After you complete this exercise, you will be able to:
 * Use the AI Red Teaming Agent to run automated scans against your AI models
 * Analyze scan results and identify potential vulnerabilities
 * Develop custom attack prompts and strategies for red teaming exercises
+* Interpret attack success rate, agentic risk categories, prohibited actions, and sensitive data leakage findings
 
 ## Duration
 

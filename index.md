@@ -34,7 +34,7 @@ This workshop agenda includes:
 
 ## Exercises
 
-The hands-on lab guide currently includes:
+The current hands-on lab guide focuses on the Zava retail assistant scenario and includes:
 
 * Deploy and configure resources
 * Implement a multimodal AI shopping assistant
@@ -43,15 +43,19 @@ The hands-on lab guide currently includes:
 * Red teaming AI agents
 * Resource cleanup
 
+For the broader Day 2 agenda, see [Expanded workshop sections](docs/00_expanded_workshop_sections.md). That page maps the agenda topics to Microsoft documentation, sample repositories, and optional lab extensions for MCP, Copilot Studio, Microsoft Agent Framework, hosted agents, A2A/MCP interoperability, AI Gateway, guardrails, and enterprise Azure AI services.
+
 ## Microsoft Documentation References
 
 The workshop content is aligned with the latest Microsoft documentation for:
 
-* [Microsoft Foundry Agent Service](https://learn.microsoft.com/azure/ai-foundry/agents/overview)
+* [Microsoft Foundry Agent Service](https://learn.microsoft.com/azure/foundry/agents/overview)
 * [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/agent-framework-overview)
-* [Agent development lifecycle](https://learn.microsoft.com/azure/ai-foundry/agents/concepts/development-lifecycle)
-* [Foundry Agent Service tools](https://learn.microsoft.com/azure/ai-foundry/agents/concepts/tool-catalog)
-* [Foundry observability for agents](https://learn.microsoft.com/azure/ai-foundry/observability/concepts/trace-agent-concept)
+* [Agent development lifecycle](https://learn.microsoft.com/azure/foundry/agents/concepts/development-lifecycle)
+* [Foundry Agent Service tools](https://learn.microsoft.com/azure/foundry/agents/concepts/tool-catalog)
+* [Deploy your first Hosted agent](https://learn.microsoft.com/azure/foundry/agents/quickstarts/quickstart-hosted-agent)
+* [Foundry observability for agents](https://learn.microsoft.com/azure/foundry/observability/concepts/trace-agent-concept)
+* [A2A integration in Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/integrations/a2a?pivots=programming-language-python)
 
 The lab is available as GitHub pages [here](https://microsoft.github.io/TechWorkshop-L300-AI-Apps-and-agents/).
 
@@ -59,5 +63,10 @@ The lab is available as GitHub pages [here](https://microsoft.github.io/TechWork
 
 For running this lab you will need:
 
-* An MCAPS subscription with access to Microsoft Foundry. External MCAPS subscriptions are preferred, though internal MCAPS subscriptions should work as well. Microsoft EMU accounts will not have sufficient privileges to perform all of the actions necessary.
-* A desktop, laptop, or virtual machine and access to install software on that machine.
+* An Azure subscription with access to Microsoft Foundry, including permissions to create or use an AI Foundry resource, a Foundry project, model deployments, Azure AI Search, Cosmos DB, Application Insights, Container Apps, Container Registry, Storage, and role assignments. External MCAPS subscriptions are preferred for this workshop. Microsoft EMU accounts and Visual Studio subscriptions may not have sufficient privileges for all Foundry and model deployment steps.
+* Model quota in a supported region for `gpt-5-mini` or the currently selected chat model, `text-embedding-3-large`, and `Phi-4` if you complete the optional model deployment steps. Recommended regions for the workshop remain **East US 2**, **Sweden Central**, and **France Central** because they are commonly used by the deployment and red-teaming flows.
+* Permissions to grant Azure RBAC roles such as **Azure AI User**, **Storage Blob Data Contributor**, and Cosmos DB data-plane roles to users, managed identities, and Foundry project identities used by the labs.
+* A desktop, laptop, virtual machine, or GitHub Codespace with permission to install software and run containers.
+* Local tooling: Azure CLI, Azure Developer CLI (`azd`), Git, GitHub CLI, Visual Studio Code, the Bicep extension, Docker Desktop or compatible container tooling, Python 3.10 through 3.13, and `uv`.
+* A GitHub account that can fork the repository and configure GitHub Actions repository secrets if you run the deployment workflow sections.
+* Optional for expanded agenda sections: access to Microsoft 365 Copilot/Copilot Studio, Azure API Management, Logic Apps connectors for MCP tools, and a non-production environment for red teaming and guardrail testing.

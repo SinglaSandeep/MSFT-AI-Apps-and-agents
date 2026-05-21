@@ -8,7 +8,7 @@ The step by step instructions for this lab can be found in the [AI Apps and agen
 
 ## Microsoft Documentation References
 
-The workshop content should stay aligned with the latest Microsoft documentation for [Microsoft Foundry Agent Service](https://learn.microsoft.com/azure/ai-foundry/agents/overview) and [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/agent-framework-overview).
+The workshop content should stay aligned with the latest Microsoft documentation for [Microsoft Foundry Agent Service](https://learn.microsoft.com/azure/foundry/agents/overview), [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/overview/agent-framework-overview), [Foundry hosted agents](https://learn.microsoft.com/azure/foundry/agents/quickstarts/quickstart-hosted-agent), [Foundry tools](https://learn.microsoft.com/azure/foundry/agents/concepts/tool-catalog), and [A2A integration in Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/integrations/a2a?pivots=programming-language-python).
 
 ## Contributing
 
