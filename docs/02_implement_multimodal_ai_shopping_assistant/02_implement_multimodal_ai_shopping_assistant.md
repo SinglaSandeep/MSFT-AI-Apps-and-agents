@@ -24,3 +24,14 @@ After you complete this exercise, you will be able to:
 ## Duration
 
 * **Estimated Time:** 60 minutes
+
+## Related workshop topics
+
+This exercise maps to the **Building agents** and **Orchestration, memory & skills** modules in the [Introduction](../../index.md). As you go through the tasks, keep these production patterns in mind:
+
+* **Short-term (session) memory** is handled inside the agent runtime (Microsoft Agent Framework session).
+* **Long-term memory** for persistent user/agent facts should use **Foundry long-term memory** rather than a custom store.
+* **Chat history** for the multimodal UI should be persisted in **Azure Cosmos DB** so sessions survive restarts, scale across regions, and stay low-latency.
+* **Tools and knowledge** for the agents are added via the Foundry tool catalog (Azure AI Search, MCP, Logic Apps, OpenAPI, function calling). Reference patterns: [Python Agent Framework demos](https://github.com/Azure-Samples/python-agentframework-demos/tree/main/examples).
+
+References: [Foundry long-term memory](https://learn.microsoft.com/azure/foundry/agents/concepts/memory), [Cosmos DB chat history store](https://learn.microsoft.com/azure/cosmos-db/nosql/ai-chat-history), [Foundry tool catalog](https://learn.microsoft.com/azure/foundry/agents/concepts/tool-catalog).

@@ -27,3 +27,14 @@ After you complete this exercise, you will be able to:
 ## Duration
 
 * **Estimated Time:** 40 minutes
+
+## Related workshop topics
+
+This exercise complements the **Security, guardrails, observability, tracing & evaluations** module in the [Introduction](../../index.md). Tie the red-team findings back to:
+
+* **Content safety + custom guardrails** applied in Foundry on the agent and its tools.
+* **Entra Agent ID + Agent 365** for agent identity, RBAC, and audit.
+* **Tracing and evaluations** (Exercise 04) so every red-team finding has a corresponding trace + evaluation regression test.
+* **Non-production environment** - never run red-team scans against production agents.
+
+References: [AI Red Teaming Agent](https://learn.microsoft.com/azure/foundry/concepts/ai-red-teaming-agent), [Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/), [Entra Agent ID](https://learn.microsoft.com/entra/identity/agent-id/overview).

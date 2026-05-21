@@ -26,3 +26,22 @@ After you complete this exercise, you will be able to:
 ## Duration
 
 * **Estimated Time:** 40 minutes
+
+## Related workshop topics
+
+This exercise maps to the **Interoperability + Hosted agents (A2A / MCP)** module in the [Introduction](../../index.md). Key patterns to highlight while running the tasks:
+
+* **A2A** for agent-to-agent communication (agent cards, messages, tasks, streaming) - works across Microsoft Agent Framework, Foundry, LangGraph, CrewAI.
+* **MCP** for exposing tools to agents in a standard way.
+* **Hosted agents** in Foundry let you host an external agent (e.g., LangGraph) and get managed identity, scaling, and observability for free. Build and push the hosted-agent container image with **`az acr build`** (ACR Tasks):
+
+  ```bash
+  az acr build \
+    --registry <your-acr-name> \
+    --image hosted-agents/my-agent:latest \
+    --file Dockerfile .
+  ```
+
+  Grant the Foundry project's managed identity the **AcrPull** role on the registry, then reference `<your-acr-name>.azurecr.io/hosted-agents/my-agent:latest` in the hosted agent definition.
+
+References: [A2A integration in Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/integrations/a2a?pivots=programming-language-python), [Hosted agents concept](https://learn.microsoft.com/azure/foundry/agents/concepts/hosted-agents), [`az acr build` quickstart](https://learn.microsoft.com/azure/container-registry/container-registry-quickstart-task-cli), [Multi-agent travel planner A2A interop sample](https://github.com/zhuohanl/multi-agent-travel-planner-a2a-interop).

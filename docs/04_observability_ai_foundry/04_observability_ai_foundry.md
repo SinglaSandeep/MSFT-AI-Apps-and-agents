@@ -25,3 +25,14 @@ After you complete this exercise, you will be able to:
 ## Duration
 
 * **Estimated Time:** 60 minutes
+
+## Related workshop topics
+
+This exercise maps to the **Security, guardrails, observability, tracing & evaluations** module in the [Introduction](../../index.md). Production-readiness loop to reinforce while running the tasks:
+
+1. **Observe** - traces, token usage, latency, dashboards in Foundry + Application Insights.
+2. **Evaluate** - quality, safety, and groundedness evaluators on captured runs.
+3. **Guardrail** - content safety and custom guardrails feeding back into prompts.
+4. **Govern** - Entra Agent ID, RBAC, and Agent 365 for identity, audit, and lifecycle.
+
+References: [Agent tracing overview](https://learn.microsoft.com/azure/foundry/observability/concepts/trace-agent-concept), [Agent Monitoring Dashboard](https://learn.microsoft.com/azure/foundry/observability/how-to/how-to-monitor-agents-dashboard), [Entra Agent ID](https://learn.microsoft.com/entra/identity/agent-id/overview).
